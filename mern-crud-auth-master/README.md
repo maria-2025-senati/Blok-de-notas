@@ -1,22 +1,51 @@
-### MERN Stack CRUD with JWT
+# Gestor de Tareas
 
-This is a web application project using React, with a Nodejs Backend using Express and Mongodb as Database (MERN Stack)
+## Descripción
+Aplicación web moderna para la gestión de tareas personales, desarrollada con el stack MERN (MongoDB, Express.js, React.js y Node.js). Permite a los usuarios gestionar sus tareas diarias de manera eficiente y organizada.
 
-### Installation with docker-compose (Recommended)
+## Características
+- Autenticación segura de usuarios
+- Creación de nuevas tareas
+- Edición de tareas existentes
+- Eliminación de tareas
+- Organización por fechas
+- Diseño responsive para móviles y tablets
 
-```sh
-docker-compose up -d
-npm run dev
-```
+## Tecnologías Utilizadas
+- **Frontend:**
+  - React.js con Vite
+  - TailwindCSS para estilos
+  - React Router para navegación
+  - Context API para gestión de estado
 
-### Deployment
+- **Backend:**
+  - Node.js con Express
+  - MongoDB para base de datos
+  - JWT para autenticación
+  - Bcrypt para encriptación
 
-```sh
-git clone https://github.com/FaztWeb/mern-tasks-auth
-cd mern-tasks-auth
-npm i
-npm run build
-npm start
-```
+## Uso
+1. Registrarse con email y contraseña
+2. Iniciar sesión
+3. Crear nuevas tareas usando el botón "Nueva Tarea"
+4. Gestionar tareas existentes (editar/eliminar)
+5. Ver todas las tareas en el dashboard principal
 
-> You need to have a Mongodb database running
+## Roles y Permisos
+- **Usuario no autenticado:**
+  - Ver página de inicio
+  - Registrarse
+  - Iniciar sesión
+
+- **Usuario autenticado:**
+  - Crear nuevas tareas
+  - Ver sus propias tareas
+  - Editar sus tareas
+  - Eliminar sus tareas
+  - Cerrar sesión
+
+## Autoría
+- **Desarrolladora:** María Luz
+- **Institución:** SENATI
+- **Curso:** FULLSTACK DEVELOPER SOFTWARE
+- **Año:** 2025
