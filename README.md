@@ -1,4 +1,4 @@
-# Gestor de Tareas - MERN Stack
+# Gestor de Tareas
 
 ## Descripción
 Aplicación web moderna para la gestión de tareas personales, desarrollada con el stack MERN (MongoDB, Express.js, React.js y Node.js). Permite a los usuarios gestionar sus tareas diarias de manera eficiente y organizada.
